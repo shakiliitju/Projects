@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="Library_Management_System_of_IITPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>library.management.system.of.iit.DiscountCode</class>
+    <class>library.management.system.of.iit.Manufacturer</class>
+    <class>library.management.system.of.iit.Product</class>
+    <class>library.management.system.of.iit.Customer</class>
+    <class>library.management.system.of.iit.MicroMarket</class>
+    <class>library.management.system.of.iit.ProductCode</class>
+    <class>library.management.system.of.iit.PurchaseOrder</class>
+    <class>Project.ProxiesPriv</class>
+    <class>Project.HelpCategory</class>
+    <class>Project.TablesPriv</class>
+    <class>Project.Db</class>
+    <class>Project.Plugin</class>
+    <class>Project.User</class>
+    <class>Project.Event</class>
+    <class>Project.Func</class>
+    <class>Project.TimeZoneTransition</class>
+    <class>Project.HelpRelation</class>
+    <class>Project.Proc</class>
+    <class>Project.NdbBinlogIndex</class>
+    <class>Project.Host</class>
+    <class>Project.TimeZoneTransitionType</class>
+    <class>Project.ProcsPriv</class>
+    <class>Project.TimeZoneName</class>
+    <class>Project.HelpKeyword</class>
+    <class>Project.ColumnsPriv</class>
+    <class>Project.HelpTopic</class>
+    <class>Project.TimeZone</class>
+    <class>Project.TimeZoneLeapSecond</class>
+    <class>Project.Servers</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/sample"/>
+      <property name="javax.persistence.jdbc.user" value="app"/>
+      <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver"/>
+      <property name="javax.persistence.jdbc.password" value="app"/>
+    </properties>
+  </persistence-unit>
+</persistence>
